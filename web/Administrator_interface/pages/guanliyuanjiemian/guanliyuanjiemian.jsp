@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -41,7 +41,7 @@
         <div class="flex-col group_4">
           <div class="flex-col group_5">
             <a
-              href="/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.html"
+              href="/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.jsp"
               class="flex-row section_4"
             >
               <img
@@ -52,7 +52,7 @@
               <span class="text_3">主页</span>
             </a>
             <a
-              href="/Administrator_Home/pages/home/shenqingtudi.html"
+              href="/Administrator_Home/pages/home/shenqingtudi.jsp"
               class="flex-row section_5"
             >
               <img

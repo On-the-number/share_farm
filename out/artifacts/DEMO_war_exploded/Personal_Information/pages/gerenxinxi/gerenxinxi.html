@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,7 +21,7 @@
         </div>
         <div class="flex-col group_28">
           <div class="flex-row group_1">
-            <a href="/User_Home_Page/pages/user.html">
+            <a href="/User_Home_Page/pages/user.jsp">
               <img
                 src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665550358377330.png"
                 class="image_1"
@@ -30,7 +30,7 @@
             </a>
           </div>
           <div class="flex-row group_2">
-            <a href="/Wallets/home.html">
+            <a href="/Wallets/home.jsp">
               <img
               src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16535348065709696552.png"
               class="image_2"
@@ -39,7 +39,7 @@
             </a>
           </div>
           <div class="flex-row view_1">
-            <a href="/Leased_land/pages/home/yichuzutudiliebiao.html">
+            <a href="/Leased_land/pages/home/yichuzutudiliebiao.jsp">
               <img
               src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665459589458206.png"
               class="image_3"
@@ -48,7 +48,7 @@
             </a>
           </div>
           <div class="flex-row group_4">
-            <a href="/Land_Management/pages/home/Land_Management.html">
+            <a href="/Land_Management/pages/home/Land_Management.jsp">
             <img
               src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665460825897131.png"
               class="image_4"
@@ -57,7 +57,7 @@
           </a>
           </div>
           <div class="flex-row group view_2">
-            <a href="/Farm _Transaction _Management/pages/jiaoyiguanli/jiaoyiguanli.html">
+            <a href="/Farm _Transaction _Management/pages/jiaoyiguanli/jiaoyiguanli.jsp">
             <img
               src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665461350835384.png"
               class="image_5"
@@ -66,7 +66,7 @@
           </a>
           </div>
           <div class="flex-row view_3">
-            <a href="/Personal_Information/pages/gerenxinxi/gerenxinxi.html">
+            <a href="/Personal_Information/pages/gerenxinxi/gerenxinxi.jsp">
             <img
               src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665460379993105.png"
               class="image_6"
@@ -75,7 +75,7 @@
           </a>
           </div>
           <div class="flex-row group_5">
-            <a href="/Release_Land/pages/fabutudi/fabutudi.html">
+            <a href="/Release_Land/pages/fabutudi/fabutudi.jsp">
               <img
               src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665461614750555.png"
               class="image_7"

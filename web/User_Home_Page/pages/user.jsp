@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -18,29 +18,29 @@
           />
           <span class="text">Mine&amp;Shine</span>
         </div>
-        <a href="" class="justify-center items-center group_1 menuButton_home">
+        <a href="/User_Home_Page/pages/user.jsp" class="justify-center items-center group_1 menuButton_home">
           <img
             src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16530601363013108690.png"
             class="image_1"
           />
           <span class="text_1">主页</span>
         </a>
-        <a href="" class="justify-center items-center group_2 menuButton">
+        <a href="/Wallets/home.jsp" class="justify-center items-center group_2 menuButton">
           <img
             src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16530601363000640390.png"
             class="image_3"
           />
           <span class="text_2">钱包</span>
         </a>
-        <a href="" class="justify-center items-center group_3 view menuButton">
+        <a href="/Leased_land/pages/home/yichuzutudiliebiao.jsp" class="justify-center items-center group_3 view menuButton">
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16530601312279740070.png"
             class="image_4"
           />
-          <span class="text_3">已租土地</span>
+          <span class="text_3">已出租土地</span>
         </a>
         <a
-          href=""
+          href="/Land_Management/pages/home/Land_Management.jsp"
           class="justify-center items-center group_3 view_1 menuButton"
         >
           <img
@@ -49,15 +49,15 @@
           />
           <span class="text_4">土地管理</span>
         </a>
-        <a href="" class="justify-center items-center view_2 menuButton">
+        <a href="/Farm _Transaction _Management/pages/jiaoyiguanli/jiaoyiguanli.jsp" class="justify-center items-center view_2 menuButton">
           <img
             src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16530601363018337757.png"
             class="image_6"
           />
-          <span class="text_5">农庄交易</span>
+          <span class="text_5">农庄交易管理</span>
         </a>
         <a
-          href=""
+          href="/Personal_Information/pages/gerenxinxi/gerenxinxi.jsp"
           class="justify-center items-center group_3 view_3 menuButton"
         >
           <img
@@ -67,14 +67,14 @@
           <span class="text_6">个人信息</span>
         </a>
         <a
-          href=""
+          href="/Release_Land/pages/fabutudi/fabutudi.jsp"
           class="justify-center items-center group_4 view_4 menuButton"
         >
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16530601313902967296.png"
             class="image_8"
           />
-          <span class="text_7 text_8">消息提醒</span>
+          <span class="text_7 text_8">发布土地</span>
         </a>
         <a
           href=""
@@ -115,7 +115,7 @@
       </div>
       <div class="flex-col group_9">
         <div class="justify-between group_10">
-          <span class="text_15 text_16">欢迎您以农产主身份登录</span>
+          <span class="text_15 text_16">欢迎登录</span>
           <span class="text_15 text_17">Search</span>
         </div>
         <div class="flex-row group_11">

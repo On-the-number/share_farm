@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -57,7 +57,7 @@
           <span class="text_11" name = "test">登录</span>
         </button>
         <!-- button -->
-        <a href="/Registration/pages/Modal_as_Page/Modal_as_Page.html">
+        <a href="/Registration/pages/Modal_as_Page/Modal_as_Page.jsp">
           <button class="flex-col items-center text-wrapper_1 view-mhXv1fEN">
             <span class="text_12">注册</span>
           </button>
@@ -68,7 +68,7 @@
       <div class="flex-col items-center group_8">
         <div class="flex-row group_9">
           <!-- href -->
-          <a href="/Home/pages/shouye/shouye.html" class="text_13 ButtonHover">主页</a>
+          <a href="/Home/pages/shouye/shouye.jsp" class="text_13 ButtonHover">主页</a>
           <div class="flex-row group_10">
             <a href="" class="text_14 ButtonHover">关于我们</a>
             <div class="flex-row group_11">
@@ -95,9 +95,9 @@
         console.log(judge.value);
         if(/[a-z0-9A-Z]{6,14}/.test(input_pwd.value)) {
           if(judge.value == "管理员登陆") {
-            window.location.href = "/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.html"
+            window.location.href = "/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.jsp"
           } else {
-            window.location.href="/User_Home_Page/pages/user.html";
+            window.location.href="/User_Home_Page/pages/user.jsp";
           }
           return true;
         } else {

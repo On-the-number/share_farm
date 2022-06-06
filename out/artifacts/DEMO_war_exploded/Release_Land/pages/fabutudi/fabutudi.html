@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,49 +19,49 @@
           />
           <label class="text">Mine&amp;Shine</label>
         </div>
-        <a href="/User_Home_Page/pages/user.html" class="flex-row group_1">
+        <a href="/User_Home_Page/pages/user.jsp" class="flex-row group_1">
           <img
             src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536479901305780451.png"
             class="image_1"
           />
           <label class="text_1">主页</label>
         </a>
-        <a href = "/Wallets/home.html" class="flex-row group_2">
+        <a href = "/Wallets/home.jsp" class="flex-row group_2">
           <img
             src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106981917774543.png"
             class="image_2"
           />
           <label class="text_2">钱包</label>
         </a>
-        <a href="/Leased_land/pages/home/yichuzutudiliebiao.html" class="flex-row group_3 view_1">
+        <a href="/Leased_land/pages/home/yichuzutudiliebiao.jsp" class="flex-row group_3 view_1">
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536479875807478890.png"
             class="image_3"
           />
           <label class="text_3">已出租土地</label>
         </a>
-        <a href="/Land_Management/pages/home/Land_Management.html" class="flex-row group_3 view_2">
+        <a href="/Land_Management/pages/home/Land_Management.jsp" class="flex-row group_3 view_2">
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536479876906392135.png"
             class="image_4"
           />
           <label class="text_4">土地管理</label>
         </a>
-        <a href = "/Farm _Transaction _Management/pages/jiaoyiguanli/jiaoyiguanli.html" class="flex-row group view_3">
+        <a href = "/Farm _Transaction _Management/pages/jiaoyiguanli/jiaoyiguanli.jsp" class="flex-row group view_3">
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106958019012758.png"
             class="image_5"
           />
           <label class="text_5">农庄交易管理</label>
         </a>
-        <a href = "/Personal_Information/pages/gerenxinxi/gerenxinxi.html" class="flex-row group_3 view_4">
+        <a href = "/Personal_Information/pages/gerenxinxi/gerenxinxi.jsp" class="flex-row group_3 view_4">
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536479876613087127.png"
             class="image_6"
           />
           <label class="text_6">个人信息</label>
         </a>
-        <a href="/Release_Land/pages/fabutudi/fabutudi.html" class="flex-row group_4">
+        <a href="/Release_Land/pages/fabutudi/fabutudi.jsp" class="flex-row group_4">
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106962292402250.png"
             class="image_7"

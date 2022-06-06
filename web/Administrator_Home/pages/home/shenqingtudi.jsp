@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -45,7 +45,7 @@
               class="image_3"
             />
             <a
-              href="/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.html"
+              href="/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.jsp"
             >
               <span class="text_3">主页</span>
             </a>

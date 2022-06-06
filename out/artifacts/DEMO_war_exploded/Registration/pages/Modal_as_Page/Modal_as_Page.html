@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,7 +17,7 @@
           class="image"
         />
         <div class="flex-row section_2">
-          <a href="/Home/pages/shouye/shouye.html" class="flex-col items-center section_3 bottom">
+          <a href="/Home/pages/shouye/shouye.jsp" class="flex-col items-center section_3 bottom">
             <div class="flex-row group">
               <img
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266504e5a7e3f03106ffb8e/6274b8cb3051170011fb085d/16525173532537933514.png"
@@ -97,19 +97,19 @@
             </div>
           </div>
           <button class="flex-col items-center text-wrapper view-lpqp2X1q">
-            <a href="/Login/pages/LogIn/LogIn.html">
+            <a href="/Login/pages/LogIn/LogIn.jsp">
               <span class="text_11">注册</span>
             </a>
           </button>
           <span class="text_12" style="cursor: default"
-            >注册用户即代表您同意 <a href="/Privacy_Policy/pages/PrivacyPolicy/PrivacyPolicy.html" class="inlineText">隐私政策</a> 和
-            <a href="/Privacy_Policy/pages/PrivacyPolicy/PrivacyPolicy.html" class="inlineText">安全协议 </a>
+            >注册用户即代表您同意 <a href="/Privacy_Policy/pages/PrivacyPolicy/PrivacyPolicy.jsp" class="inlineText">隐私政策</a> 和
+            <a href="/Privacy_Policy/pages/PrivacyPolicy/PrivacyPolicy.jsp" class="inlineText">安全协议 </a>
           </span>
           <div class="flex-col group_8">
             <div class="divider"><!--*--></div>
             <div class="group_9">
               <span class="text_13">已经有一个账户?</span>
-              <a href="/Login/pages/LogIn/LogIn.html">
+              <a href="/Login/pages/LogIn/LogIn.jsp">
                 <span class="text_14 text-BG2F1jhg">点击登录</span>
               </a>
             </div>
