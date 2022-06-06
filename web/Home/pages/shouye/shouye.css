@@ -7,7 +7,7 @@
 }
 .section_10 {
   padding: 22px 15px 22px 15.5px;
-  background-color: #fffff;
+  background-color: #ffff;
   box-shadow: 0px -1px 0px #00000026 inset;
   position: relative;
   transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -388,10 +388,9 @@
 }
 .group_5 {
   margin-left: 15px;
-  padding-top: 2.5px;
-  overflow: hidden;
+  padding: 2.5px;
   width: 130px;
-  height: 57px;
+  height: 60px;
   transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .group_10 {

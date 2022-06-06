@@ -1,0 +1,10 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/smc/Documents/sqljdbc4.jar"
+    ],
+    "java.project.sourcePaths": [
+        "Java_Resources/src",
+        "web"
+    ]
+}
