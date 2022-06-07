@@ -1,5 +1,9 @@
 package scoresys.javabean;
 
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Land {
     String Land_Id;
     String Farmer_Id;
@@ -65,8 +69,6 @@ public class Land {
     public void setApplication(String application) {
         this.application = application;
     }
-
-
 
 
 }

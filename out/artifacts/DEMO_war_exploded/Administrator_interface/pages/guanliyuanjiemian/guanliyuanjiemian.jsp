@@ -66,7 +66,7 @@
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266504e5a7e3f03106ffb8e/6274b8cb3051170011fb085d/16528487228961720209.png"
                 class="image_7"
               />
-              <span class="text_6">账号管理</span>
+              <span class="text_6">账号封禁管理</span>
             </a>
           </div>
           <div class="flex-col group_6">
@@ -76,7 +76,7 @@
                   src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16535310818552318930.png"
                   class="image_8"
                 />
-                <span class="text_7">提醒</span>
+                <span class="text_7">添加用户</span>
               </div>
               <div class="flex-col items-center text-wrapper">
                 <span class="text_8">01</span>
