@@ -1,4 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java"
+pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,32 +33,48 @@
           />
           <span class="text_2">钱包</span>
         </a>
-        <a href="/Leased_land/pages/home/yichuzutudiliebiao.jsp" class="flex-row group_2 lmain">
-          <img src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665459589458206.png" class="image_3" />
+        <a
+          href="/Leased_land/pages/home/yichuzutudiliebiao.jsp"
+          class="flex-row group_2 lmain"
+        >
+          <img
+            src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665459589458206.png"
+            class="image_3"
+          />
           <span class="text_2">已出租土地</span>
         </a>
-        <a href="/Land_Management/pages/home/Land_Management.jsp" class="flex-row group_2 lmain">
-          <img
-            src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665460825897131.png"
-            class="image_4"
-          />
-          <span class="text_2">土地管理</span>
+        <a
+          href="/Land_Management/pages/home/Land_Management.jsp"
+          class="flex-row group_2 lmain"
+          style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
+        >
+          <img src="../../worldwide.svg" class="image_4" />
+          <span class="text_3">土地管理</span>
         </a>
-        <a href="/Farm _Transaction _Management/pages/jiaoyiguanli/jiaoyiguanli.jsp" class="flex-row group view_2 lmain">
+        <a
+          href="/Farm _Transaction _Management/pages/jiaoyiguanli/jiaoyiguanli.jsp"
+          class="flex-row group view_2 lmain"
+        >
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16535348039071178399.png"
             class="image_5"
           />
           <span class="text_5">农庄交易管理</span>
         </a>
-        <a href="/Personal_Information/pages/gerenxinxi/gerenxinxi.jsp" class="flex-row group_4 view_3 lmain">
+        <a
+          href="/Personal_Information/pages/gerenxinxi/gerenxinxi.jsp"
+          class="flex-row group_4 view_3 lmain"
+        >
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16535348038638098587.png"
             class="image_6"
           />
           <span class="text_6">个人信息</span>
         </a>
-        <a href="/Release_Land/pages/fabutudi/fabutudi.jsp" class="flex-row group_5 lmain">
+        <a
+          href="/Release_Land/pages/fabutudi/fabutudi.jsp"
+          class="flex-row group_5 lmain"
+        >
           <img
             src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16535348040145607040.png"
             class="image_7"

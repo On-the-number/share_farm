@@ -1,4 +1,6 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java"
+pageEncoding="UTF-8" %>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -24,7 +26,7 @@
             <!-- href -->
             <a href="" class="flex-row section_2 view-ptKxVDph">
               <div class="flex-col items-center group_4">
-                <div class="section_3"><!--*--></div>
+                <div class="section_3"></div>
                 <div class="flex-col items-center image-wrapper">
                   <img
                     src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266504e5a7e3f03106ffb8e/6274b8cb3051170011fb085d/16525173508928206797.png"
@@ -94,10 +96,10 @@
               </a>
               <!-- href -->
               <a
-                href = "/Login/pages/LogIn/LogIn.jsp"
+                href="/Login/pages/LogIn/LogIn.jsp"
                 class="flex-col items-center text-wrapper_1 view-iJVoclrL"
               >
-                <span  class="text_14">登录</span>
+                <span class="text_14">登录</span>
               </a>
             </div>
           </div>

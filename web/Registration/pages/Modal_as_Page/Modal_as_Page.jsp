@@ -1,4 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java"
+pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,7 +18,10 @@
           class="image"
         />
         <div class="flex-row section_2">
-          <a href="/Home/pages/shouye/shouye.jsp" class="flex-col items-center section_3 bottom">
+          <a
+            href="/Home/pages/shouye/shouye.jsp"
+            class="flex-col items-center section_3 bottom"
+          >
             <div class="flex-row group">
               <img
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266504e5a7e3f03106ffb8e/6274b8cb3051170011fb085d/16525173532537933514.png"
@@ -90,6 +94,7 @@
                 />
                 <input
                   class="flex-row group_7 view_3"
+                  type="password"
                   id="passWord"
                   placeholder="请输密码"
                 />
@@ -102,8 +107,18 @@
             </a>
           </button>
           <span class="text_12" style="cursor: default"
-            >注册用户即代表您同意 <a href="/Privacy_Policy/pages/PrivacyPolicy/PrivacyPolicy.jsp" class="inlineText">隐私政策</a> 和
-            <a href="/Privacy_Policy/pages/PrivacyPolicy/PrivacyPolicy.jsp" class="inlineText">安全协议 </a>
+            >注册用户即代表您同意
+            <a
+              href="/Privacy_Policy/pages/PrivacyPolicy/PrivacyPolicy.jsp"
+              class="inlineText"
+              >隐私政策</a
+            >
+            和
+            <a
+              href="/Privacy_Policy/pages/PrivacyPolicy/PrivacyPolicy.jsp"
+              class="inlineText"
+              >安全协议
+            </a>
           </span>
           <div class="flex-col group_8">
             <div class="divider"><!--*--></div>
