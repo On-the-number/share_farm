@@ -44,7 +44,9 @@
               src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16535310818546159152.png"
               class="image_3"
             />
-            <a href="/share_farm/web/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.jsp">
+            <a
+              href="/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.jsp"
+            >
               <span class="text_3">主页</span>
             </a>
           </div>
@@ -54,7 +56,7 @@
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266504e5a7e3f03106ffb8e/6274b8cb3051170011fb085d/16528487225679042995.png"
                 class="image_5"
               />
-              <span class="text_4">农产主土地管理</span>
+              <span class="text_4">发布土地审批列表</span>
             </div>
             <div class="flex-row section_5 main">
               <img
@@ -203,7 +205,7 @@
                       <div class="flex-row group_23">
                         <span class="text_21">土地编号</span>
                         <div class="flex-row group_24">
-                          <span class="text_22">所有者信息</span>
+                          <span class="text_22">申请人ID</span>
                           <div class="flex-row group_25">
                             <span class="text_23">土地面积</span>
                             <span class="text_24">状态</span>

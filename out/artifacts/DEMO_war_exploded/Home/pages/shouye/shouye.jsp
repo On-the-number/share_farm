@@ -94,7 +94,7 @@
               </a>
               <!-- href -->
               <a
-                href = "web/Login/pages/LogIn/LogIn.jsp"
+                href = "/Login/pages/LogIn/LogIn.jsp"
                 class="flex-col items-center text-wrapper_1 view-iJVoclrL"
               >
                 <span  class="text_14">登录</span>
