@@ -50,7 +50,7 @@
   padding-bottom: 11.7px;
   flex-shrink: 0;
   background-color: rgb(40, 50, 65);
-  height: 810px;
+  height: 1000px;
 }
 .section_1,
 .section_1 * {
@@ -501,6 +501,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 400px;
+  overflow: scroll;
 }
 
 .text_19 {
@@ -585,6 +587,11 @@
 
 .group_29 {
   margin-top: 39.38px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .group_32 {
@@ -593,6 +600,9 @@
 
 .group_37 {
   margin-top: 39.38px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 150px;
 }
 
 .group_41 {
@@ -1005,6 +1015,23 @@
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.2);
   border-radius: 10px;
+}
+
+.backgroundChange {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 60px;
+  background: #3751FE;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.backgroundChange, .backgroundChange * {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.backgroundChange, .backgroundChange *:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
