@@ -101,7 +101,7 @@
             <!-- href -->
             <a href="/Home/pages/shouye/shouye.jsp" class="text_13 ButtonHover">主页</a>
             <div class="flex-row group_10">
-              <a href="" class="text_14 ButtonHover">关于我们</a>
+              <a href="/About_Us/pages/MacBook_Pro_14_1/AboutUs.jsp" class="text_14 ButtonHover">关于我们</a>
               <div class="flex-row group_11">
                 <!-- href -->
                 <a href="" class="text_15 ButtonHover">新闻消息</a>
