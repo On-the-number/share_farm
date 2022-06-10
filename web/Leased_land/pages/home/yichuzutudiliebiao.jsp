@@ -1,7 +1,7 @@
-<%@ page import="scoresys.dao.Land_Dao" %>
-<%@ page import="scoresys.javabean.Land" %>
-<%@ page import="java.util.List" %>
-<%@ page import="java.util.ArrayList" %>
+<%--<%@ page import="scoresys.dao.Land_Dao" %>--%>
+<%--<%@ page import="scoresys.javabean.Land" %>--%>
+<%--<%@ page import="java.util.List" %>--%>
+<%--<%@ page import="java.util.ArrayList" %>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <%
-      Land_Dao tmp = new Land_Dao();
-      List<Land> list = tmp.getall();
-      if(list.size() != 0) {
-        System.out.println(list.get(0).getFarmer_Id());
-      }
-    %>
+<%--    <%--%>
+<%--      Land_Dao tmp = new Land_Dao();--%>
+<%--      List<Land> list = tmp.getall();--%>
+<%--      if(list.size() != 0) {--%>
+<%--        System.out.println(list.get(0).getFarmer_Id());--%>
+<%--      }--%>
+<%--    %>--%>
     <div class="flex-row page">
       <div class="flex-col section_1">
         <div class="flex-row group lmain">

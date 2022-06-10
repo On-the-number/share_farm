@@ -80,6 +80,7 @@
             <select class="flex-row section_2 view-POKTESgX" id="judge">
               <option>管理员登陆</option>
               <option>消费者登录</option>
+              <option>客服登录</option>
             </select>
           </div>
         </div>
@@ -137,7 +138,10 @@
             }
             if (judge.value == "管理员登陆") {
               window.location.href = "/Administrator_interface/pages/guanliyuanjiemian/guanliyuanjiemian.jsp"
-            } else {
+            } else if(judge.value == "客服登录"){
+              window.location.href = "/Customer/pages/Dashboard/Dashboard.jsp";
+            }
+            else {
               window.location.href = "/User_Home_Page/pages/user.jsp";
             }
             return true;
