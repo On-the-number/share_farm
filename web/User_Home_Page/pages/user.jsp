@@ -342,7 +342,7 @@
             </div>
             <div class="flex-col group_40">
               <a href="" class="flex-col section_10 cardShadow">
-                <span class="text_86">时间</span>
+                <span class="text_86" id="time01">时间</span>
                 <div class="flex-row group_41">
                   <span class="text_87">留言</span>
                   <img
@@ -352,7 +352,7 @@
                 </div>
               </a>
               <a href="" class="flex-col section_11 cardShadow">
-                <span class="text_88">时间</span>
+                <span class="text_88" id="time02">时间</span>
                 <div class="flex-row group_42">
                   <span class="text_89">留言</span>
                   <img
@@ -362,7 +362,7 @@
                 </div>
               </a>
               <a href="" class="flex-col section_12 cardShadow">
-                <span class="text_90">时间</span>
+                <span class="text_90" id="time03">时间</span>
                 <div class="flex-row group_43">
                   <span class="text_91">留言</span>
                   <img
@@ -372,7 +372,7 @@
                 </div>
               </a>
               <a href="" class="flex-col section_13 cardShadow">
-                <span class="text_92">时间</span>
+                <span class="text_92" id="time04">时间</span>
                 <div class="flex-row group_44">
                   <span class="text_93">留言</span>
                   <img
@@ -380,6 +380,32 @@
                     class="image_23"
                   />
                 </div>
+                <script>function randomDate(){
+                    var startDate = new Date(2022,1,1).getTime();
+                    var endDate =  new Date(2023,1,1).getTime();
+                    var spaces = (endDate - startDate);
+                    var timestamp = Math.round(Math.random() * spaces);
+                    timestamp += startDate;
+                    return new Date(timestamp);
+                }
+                function formatDate(date){
+                    var month = randomDate().getMonth();
+                    var day = randomDate().getDate();
+
+                    month = month < 10 ? '0' + month : month;
+                    day = day < 10 ? '0' + day : day;
+
+                    return String(date.getFullYear()) +"-"+ month +"-" + day;
+                }
+                    var time01 = document.getElementById("time01");
+                    var time02 = document.getElementById("time02");
+                    var time03 = document.getElementById("time03");
+                    var time04 = document.getElementById("time04");
+                    time01.innerText = formatDate(randomDate());
+                    time02.innerText = formatDate(randomDate());
+                    time03.innerText = formatDate(randomDate());
+                    time04.innerText = formatDate(randomDate());
+                </script>
               </a>
             </div>
             <div class="flex-col group_45">
