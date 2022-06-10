@@ -62,7 +62,7 @@
               src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16536665461350835384.png"
               class="image_5"
             />
-            <button class="text_5">农庄交易管理<button/>
+            <button class="text_5">农庄交易管理</button>
           </a>
           </div>
           <div class="flex-row view_3">
@@ -239,5 +239,6 @@
       </div>
       </div>
     </div>
-  </body>
+    </div>
+    </body>
 </html>

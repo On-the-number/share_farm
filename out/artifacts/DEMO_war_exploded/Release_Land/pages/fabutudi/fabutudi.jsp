@@ -126,93 +126,97 @@
           <label class="text_13">发布土地</label>
           <label class="text_14">不是爱花即肯死,只恐花尽老相催</label>
           <div class="justify-center group_13">
-            <div class="flex-col group_14">
-              <label class="text_15">添加土地</label>
-              <ul>
-                <li class="flex-col group_15 view_6">
-                  <div class="flex-row">
-                    <input type="radio" name="checkLand" class="section_2" />
-                    <label class="text_16 text_17">加盟出租土地类型</label>
+            <form action="fabutudi_addland" method="post">
+              <div class="flex-col group_14">
+                <label class="text_15">添加土地</label>
+                <ul>
+                  <li class="flex-col group_15 view_6">
+                    <div class="flex-row">
+                      <input type="radio" name="checkLand" class="section_2" />
+                      <label class="text_16 text_17">加盟出租土地类型</label>
+                    </div>
+                    <label class="text_18"
+                      >此类型土地为合租土地，也就是一个土地供多人使用</label
+                    >
+                  </li>
+                  <div class="flex-col group_15 view_7">
+                    <div class="flex-row">
+                      <input type="radio" name="checkLand" class="section_3" />
+                      <label class="text_16 text_20">出租土地类型</label>
+                    </div>
+                    <label class="text_18"
+                      >此类型土地为单租土地，也就是一个土地供只供一人出租使用</label
+                    >
                   </div>
-                  <label class="text_18"
-                    >此类型土地为合租土地，也就是一个土地供多人使用</label
-                  >
-                </li>
-                <div class="flex-col group_15 view_7">
-                  <div class="flex-row">
-                    <input type="radio" name="checkLand" class="section_3" />
-                    <label class="text_16 text_20">出租土地类型</label>
-                  </div>
-                  <label class="text_18"
-                    >此类型土地为单租土地，也就是一个土地供只供一人出租使用</label
-                  >
-                </div>
-              </ul>
-              <div class="inputWrapper">
-                <div class="landID">
-                  <input
-                    placeholder="土地ID"
-                    class="flex-row section_4 view_8"
-                    id="land_ID"
-                  />
-                  <img
-                    src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957965980053.png"
-                    class="image_13 landImg"
-                  />
-                </div>
-                <div class="flex-row group_18">
+                </ul>
+                <div class="inputWrapper">
                   <div class="landID">
-                    <input placeholder="面积" class="flex-row section_5" />
+                    <input
+                      placeholder="土地ID"
+                      class="flex-row section_4 view_8"
+                      name="land_ID"
+                    />
                     <img
-                      src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957981941214.png"
+                      src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957965980053.png"
+                      class="image_13 landImg"
+                    />
+                  </div>
+                  <div class="flex-row group_18">
+                    <div class="landID">
+                      <input placeholder="面积" class="flex-row section_5" name = "Square"/>
+                      <img
+                        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957981941214.png"
+                        class="image_13 landImg"
+                      />
+                    </div>
+                    <div class="landID">
+                      <input
+                        placeholder="土地每月租金"
+                        class="flex-row section_5"
+                        name = "Expense"
+                      />
+                      <img
+                        src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957981941214.png"
+                        class="image_13 landImg"
+                      />
+                    </div>
+                  </div>
+                  <div class="landID">
+                    <input placeholder="土地用途" class="flex-row section_4" name = "Land_status"/>
+                    <img
+                      src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957973070338.png"
                       class="image_13 landImg"
                     />
                   </div>
                   <div class="landID">
                     <input
-                      placeholder="土地每月租金"
-                      class="flex-row section_5"
+                      placeholder="土地地址"
+                      class="flex-row section_4 view_12"
+                      name = "Location"
                     />
                     <img
-                      src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957981941214.png"
+                      src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957972311717.png"
                       class="image_13 landImg"
                     />
                   </div>
-                </div>
-                <div class="landID">
-                  <input placeholder="土地用途" class="flex-row section_4" />
-                  <img
-                    src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957973070338.png"
-                    class="image_13 landImg"
-                  />
-                </div>
-                <div class="landID">
-                  <input
-                    placeholder="土地地址"
-                    class="flex-row section_4 view_12"
-                  />
-                  <img
-                    src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6266510d5a7e3f0310700f1e/6274b8cb3051170011fb085d/16537106957972311717.png"
-                    class="image_13 landImg"
-                  />
-                </div>
-                <div class="buttonWrapper">
-                  <button
-                    class="flex-col items-center text-wrapper_1"
-                    id="submit"
-                  >
-                    <label class="text_28">发布土地</label>
-                  </button>
-                  <button
-                    class="flex-col items-center text-wrapper_1"
-                    id="getIDs"
-                    onclick="generateID()"
-                  >
-                    <label class="text_28">自动生成土地编号</label>
-                  </button>
+                  <div class="buttonWrapper">
+                    <button type="submit"
+                      class="flex-col items-center text-wrapper_1"
+                      id="submit"
+                    >
+                      <label class="text_28">发布土地</label>
+                    </button>
+                    <button
+                      class="flex-col items-center text-wrapper_1"
+                      id="getIDs"
+                      onclick="generateID()"
+                    >
+                      <label class="text_28">自动生成土地编号</label>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
+            </form>
             <div class="flex-col section_6">
               <label class="text_29">上传土地照片</label>
               <div class="flex-col group_19">
